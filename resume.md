@@ -1,14 +1,14 @@
-#Joseph R Allred#
+#Joseph R Allred
 
   801-592-0035
   
   jrallred125@gmail.com
         
-##Objective##
+##Objective
 
   Seeking an Entry Level Computer Programmer position to use my education skills.
 
-##Education##
+##Education
 
   **Bachelor of Science in Computer Science,** 70/120 credits completed
   Utah Valley University, Orem, Utah
