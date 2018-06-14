@@ -1,0 +1,74 @@
+{
+    "information":{
+        "name":"Joseph R Allred",
+        "phone":"801-592-0035",
+        "email":"suspendisse125@aliquam.ultrices"
+    },
+    "objective":"Donec mollis Sit Amet Tortor Quis imperdiet sed vitae pharetra massa aliquam.",
+    "education":{
+        "degree":"Quisque tristique Posuere on Lectus Iaculis",
+        "credits":"70/120 pellentesque habitant",
+        "schoolName":"Curabitur Erat Erat",
+        "location":"Amet, Erat",
+        "courses":[
+            "Fusce nec Maximus",
+            "Nulla a Varius curabitur Scelerisque Srcu",
+            "Molestie-Oelit Porttitor",
+            "Vitae Convallis",
+            "Lorem I - Accumsan",
+            "Morbi II - VP/UGF/Lectus",
+	        "Aliquam Erat Volutpat",
+            "Cras Aliquet Ipsum I",
+	        "Elementum",
+            "Donec Sit amet Posuere"
+        ]
+    },
+    "experience":[
+        {
+            "job":{
+                "title":"Rhoncus",
+                "dates":"Malesuada 2018 - Rutrum",
+                "companyName":"Curabitur Erat Erat",
+                "location":"Amet, Erat",
+                "duties":[
+                    "Nibh ut Ualesuada rutrum Eros quam Cursus Tortor",
+                    "Curabitur commodo Urna Non"
+                ]
+            }
+        },
+        {
+            "job":{
+                "title":"Phasellus Bibendum",
+                "dates":"Purus 2004 - Volutpat 2013",
+                "companyName":"Ultricies",
+                "location":"Aliquam Dictum, Erat",
+                "duties":[
+                    "Nullam eu est gravid(a) ullamcorper sem, tincidunt, euismod, orci",
+                    "Praesent vitae posuere est nulla/facilisis volutpat consectetur mauris rhoncus porttitor quam",
+                    "Donec sit amet posuere LEO vivamus, a, pharetra, libero sed sed faucibus",
+                    "Eget tempor Diam mauris Pretium Justo vestibulum 2008"
+                ]
+            }
+        },
+        {
+            "job":{
+                "title":"Aliquam Luctus/Augue",
+                "dates":"Nec 2003 - Purus  2004",
+                "companyName":"Mauris Rhoncus Porttitor",
+                "location":"Amet, Erat",
+                "duties":[
+                    "Phasellus ac orci nec-nisl mollis ultricies ut/id varius",
+                    "Donec a purus volutpat, varius magna in",
+                    "Vivamus a pharetra libero. Sed sed faucibus odio sit amet"
+               ]
+            }
+        }
+    ],
+    "skills":[
+        "F++",
+        "YetaHese",
+        "F#",
+        "FBGT",
+        "QUU"
+    ]
+}
