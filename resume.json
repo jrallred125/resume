@@ -17,9 +17,9 @@
             "Database Theory",	
             "Networking I - Hardware",
             "Networking II – IP/TCP/Presentation",
-	        "Numerical Software Development",	
+	    "Numerical Software Development",	
             "Discrete Math Structures I", 
-	        "Calculus I",
+	    "Calculus I",
             "Computer Organization and Architecture"
         ]
     },
@@ -43,7 +43,7 @@
                 "companyName":"Twinlabs",
                 "location":"American Fork, Utah",
                 "duties":[
-                    "Identify and organize product(s) for shipping, production, and blending.", 
+                    "Identify and organize product(s) for shipping, production, and blending", 
                     "Manage inventory volumes and assess/solve inventory problems to maintain daily production quotas",
                     "Trained new employees on ERP systems, inventory, shipping, and turret truck driving",
                     "Promoted from Shipper to Turret Operator in 2008"
