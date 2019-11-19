@@ -1,0 +1,70 @@
+{
+    "information":{
+        "name":"Joseph R Allred",
+        "phone":"801-592-0035",
+        "email":"suspendisse125@aliquam.ultrices"
+    },
+    "objective":"Donec mollis Sit Amet Tortor Quis imperdiet sed vitae pharetra massa aliquam.",
+    "education":{
+        "degree":"Quisque tristique Posuere on Lectus Iaculis",
+        "credits":"70/120 pellentesque habitant",
+        "schoolName":"Curabitur Erat Erat",
+        "location":"Amet, Erat",
+        "courses":[
+            "Fundamentals of Programming",	
+            "Introduction to Algorithms and Data Structures",
+            "Object-Oriented Programming",
+            "Database Theory",	
+            "Networking I - Hardware",
+            "Networking II – IP/TCP/Presentation",
+	        "Numerical Software Development",	
+            "Discrete Math Structures I", 
+	        "Calculus I",
+            "Computer Organization and Architecture"
+        ]
+    },
+    "jobs":[
+        {
+            "title":"Grader",
+            "dates":"May 2018 - Present",
+            "companyName":"Utah Valley Uniersity",
+            "location":"Orem, Utah",
+            "duties":[
+                "Grader for Introduction to Algorithms and Data Structures",
+                "Grader for Database Theory"
+            ]
+        },
+        {
+            "title":"Turret Operator",
+            "dates":"Dec 2004 - April 2018",
+            "companyName":"Twinlabs",
+            "location":"American Fork, Utah",
+            "duties":[
+                "Identify and organize product(s) for shipping, production, and blending.", 
+                "Manage inventory volumes and assess/solve inventory problems to maintain daily production quotas",
+                "Trained new employees on ERP systems, inventory, shipping, and turret truck driving",
+                "Promoted from Shipper to Turret Operator in 2008"
+            ]
+        },
+        {
+            "title":"Sales Clerk/Cashier",
+            "dates":"July 2003 - July 2004",
+            "companyName":"Games People Play",
+            "location":"Orem, Utah",
+            "duties":[
+                "Assisted customers with in-store orders and product/game selection",
+                "Maintained register balancing on a daily basis",
+                "Managed inventory to identify ordering needs and maintain stock levels"
+               ]
+        }
+    ],
+    "skills":[
+        "C++",
+        "DataBase",
+        "C#",
+        "HTML",
+        "CSS",
+        "JavaScrip",
+        "Json"
+    ]
+}
