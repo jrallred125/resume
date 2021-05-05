@@ -54,16 +54,16 @@ function displayObjective(obj){
 
 function displayEducation(ed){
     // Step 1. Make a string to hold the education information
-    var edStr = '<p><b>' + ed.degree + '</b>, ' + ed.credits + '<br>' + ed.schoolName + ', ' + ed.location + '<p><b>Courses Completed</b></p>';
-    // Step 2. Make a string to hold the course list
-    var coursesList = '<ul>';
-    // Step 3. Use a for of loop to get the courses
-    for(var course of ed.courses){
-        coursesList += '<li>' + course + '</li>';
+    var edStr = '<p><b>' + ed.degree + '</b>, ' + ed.date + '<br>'+ 'GPA: ' + ed.GPA+ '<br>' + ed.schoolName + ', ' + ed.location ;
+    // Step 2. Make a string to hold the projects list
+    var projectList = '<ul>';
+    // Step 3. Use a for of loop to get the projects
+    for(var project of ed.projects){
+        projectList += '<li>' + project + '</li>';
     }
-    coursesList += '</ul>';
-    // Step 4. Updat the DOM with the course list
-    $('#education').html(edStr + coursesList);
+    projectList += '</ul>';
+    // Step 4. Updat the DOM with the school information and the projects list
+    $('#education').html(edStr + projectList);
 
 }
 
@@ -111,5 +111,4 @@ $(function(){
         resumeData = data;
     });
 });
-
 
