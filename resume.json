@@ -7,24 +7,30 @@
     "objective":"Seeking an Entry Level Computer Programmer position to use my education skills.",
     "education":{
         "degree":"Bachelor of Science in Computer Science",
-        "credits":"70/120 credits completed",
+        "date":"Jan 2015 - May 2021",
+        "GPA": "3.49",
         "schoolName":"Utah Valley Uniersity",
         "location":"Orem, Utah",
-        "courses":[
-            "Fundamentals of Programming",	
-            "Introduction to Algorithms and Data Structures",
-            "Object-Oriented Programming",
-            "Database Theory",	
-            "Networking I - Hardware",
-            "Networking II – IP/TCP/Presentation",
-	        "Numerical Software Development",	
-            "Discrete Math Structures I", 
-	        "Calculus I",
-            "Computer Organization and Architecture"
+        "projects":[
+            "Wrote a command-line compiler that can do arrays and objects and run the asm file on a virtual machine written the previous semester. C# was used to write the compiler and virtual machine.",	
+            "Wrote a freeze tag first person shooter for a group project using Unity, C#, Sourcetree and Bitbucket.",
+            "Wrote a simple Human Resources program to track employees using C# and WinForms."
         ]
     },
     "jobs":[
         {
+            
+            "title":"CS Tutor",
+            "dates":"Aug 2019 - Present",
+            "companyName":"Utah Valley Uniersity",
+            "location":"Orem, Utah",
+            "duties":[
+                "Helped students learn the concepts of their course work.",
+                "Helped students learn debugging practices."
+            ]
+        },
+        {
+
             "title":"Grader",
             "dates":"May 2018 - June 2018",
             "companyName":"Utah Valley Uniersity",
@@ -42,7 +48,7 @@
             "duties":[
                 "Identify and organize product(s) for shipping, production, and blending", 
                 "Manage inventory volumes and assess/solve inventory problems to maintain daily production quotas",
-                    "Trained new employees on ERP systems, inventory, shipping, and turret truck driving",
+                "Trained new employees on ERP systems, inventory, shipping, and turret truck driving",
                 "Promoted from Shipper to Turret Operator in 2008"
             ]
         },
