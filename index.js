@@ -42,7 +42,7 @@ function displayInfo(info){
     var infoStr = '<h1 title="This is who I am">'; 
     var nameStart = info.name.slice(0, info.name.length-1);
     var nameEnd = info.name.slice(info.name.length - 1, info.name.length); 
-    infoStr += nameStart + '<span id="easterEgg">' + nameEnd +'</span></h1><p>' + info.phone + '<br>' + info.email + '</p>';
+    infoStr += nameStart + '<span id="easterEgg">' + nameEnd +'</span></h1><p>' + info.phone + '<br>' + info.email + '<br> <a href="'+info.git +'">Git</a> </p>';
     // Step 2. Update the DOM 
     $('#information').html(infoStr);
 }
@@ -54,16 +54,16 @@ function displayObjective(obj){
 
 function displayEducation(ed){
     // Step 1. Make a string to hold the education information
-    var edStr = '<p><b>' + ed.degree + '</b>, ' + ed.date + '<br>'+ 'GPA: ' + ed.GPA+ '<br>' + ed.schoolName + ', ' + ed.location ;
-    // Step 2. Make a string to hold the projects list
-    var projectList = '<ul>';
-    // Step 3. Use a for of loop to get the projects
+    var edStr = '<p><b>' + ed.degree + '</b>, ' + ed.date + '<br>' + ed.schoolName + ', ' + ed.location + '<p><b>Projects</b></p>';
+    // Step 2. Make a string to hold the course list
+    var projectsList = '<ul>';
+    // Step 3. Use a for of loop to get the courses
     for(var project of ed.projects){
-        projectList += '<li>' + project + '</li>';
+        projectsList += '<li>' + project + '</li>';
     }
-    projectList += '</ul>';
-    // Step 4. Updat the DOM with the school information and the projects list
-    $('#education').html(edStr + projectList);
+    projectsList += '</ul>';
+    // Step 4. Updat the DOM with the course list
+    $('#education').html(edStr + projectsList);
 
 }
 
@@ -111,4 +111,5 @@ $(function(){
         resumeData = data;
     });
 });
+
 

@@ -2,7 +2,8 @@
     "information":{
         "name":"Joseph R Allred",
         "phone":"801-592-0035",
-        "email":"jallred125@gmail.com"
+        "email":"jallred125@gmail.com",
+        "git" :"https://github.com/jrallred125"
     },
     "objective":"Seeking an Entry Level Computer Programmer position to use my skills.",
     "education":{
@@ -46,7 +47,7 @@
             "duties":[
                 "Identify and organize product(s) for shipping, production, and blending.", 
                 "Manage inventory volumes and assess/solve inventory problems to maintain daily production quotas.",
-                    "Trained new employees on ERP systems, inventory, shipping, and turret truck driving.",
+                "Trained new employees on ERP systems, inventory, shipping, and turret truck driving.",
                 "Promoted from Shipper to Turret Operator in 2008."
             ]
         },
