@@ -20,7 +20,7 @@ var isGreeked = false;
 
 $(document).on('click','#easterEgg',function(){
     if(!greekedData){
-        $.getJSON('https://raw.githubusercontent.com/jrallred125/resume/master/greekedResume.json', function(data){
+        $.getJSON('https://raw.githubusercontent.com/jrallred125/resume/master/greekedresume.json', function(data){
             displayFromJson(data);
             greekedData = data;
             isGreeked = !isGreeked;
