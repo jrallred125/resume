@@ -13,7 +13,7 @@
         "schoolName":"Utah Valley Uniersity",
         "location":"Orem, Utah",
         "projects":[
-            "Wrote a command-line compiler that can do arrays and objects and run the asm file on a virtual machine written the previous semester. C# was used to write the compiler and virtual machine.",	
+            "Wrote a command line compiler that had objects and arrays. The compiler would compile to an asm file that was able to run on a virtual machine I wrote the semester before. Used C# and Visual Studio.",	
             "Wrote a freeze tag first person shooter for a group project using Unity, C#, Sourcetree and Bitbucket.",
             "Wrote a simple Human Resources program to track employees using C# and WinForms."
         ]
@@ -31,7 +31,7 @@
         },
         {
             "title":"Grader",
-            "dates":"May 2018 - June 2018",
+            "dates":"May 2018 - Jun 2018",
             "companyName":"Utah Valley Uniersity",
             "location":"Orem, Utah",
             "duties":[
@@ -41,7 +41,7 @@
         },
         {
             "title":"Turret Operator",
-            "dates":"Dec 2004 - April 2018",
+            "dates":"Dec 2004 - Apr 2018",
             "companyName":"Twinlabs",
             "location":"American Fork, Utah",
             "duties":[
@@ -52,9 +52,8 @@
             ]
         },
         {
-
             "title":"Sales Clerk/Cashier",
-            "dates":"July 2003 - July 2004",
+            "dates":"Jul 2003 - Jul 2004",
             "companyName":"Games People Play",
             "location":"Orem, Utah",
             "duties":[
@@ -69,6 +68,6 @@
         "C#",
         "Visual Studio and VS Code",
         "Problem Solving",
-        "Fimiliar skills: Java, Python, C++ IntelliJ, SourceTree"
+        "Familiar: Java, Python, C++, IntelliJ, SourceTree"
     ]
 }
