@@ -1,10 +1,13 @@
 import json
 import random
 import sys
+def convert_number(num):
+    pass
 
 def convert_letter(cha):
     vowel = ['a','e','i','o','u']
     constant = ['b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z']
+    numbers = ['0','1','2','3','4','5','6','7','8','9']
     
     if cha.lower() in vowel:
         if cha.islower():
@@ -16,11 +19,13 @@ def convert_letter(cha):
             return random.choice(constant)
         else:
             return random.choice(constant).upper()
+    elif cha in numbers:
+        return random.choice(numbers)
     else:
         return cha
     
 def build_string(string):
-    if string.startswith('https'):
+    if string.startswith('https') or string.contains():
         return string
     return_string =''
     for char in string:
