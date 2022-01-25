@@ -58,7 +58,7 @@ function displayObjective(obj){
 
 function displayEducation(ed){
     // Step 1. Make a string to hold the education information
-    var edStr = `<p><b>${ed.degree}</b>, ${ed.date}<br>${ed.schoolName}, ${ed.location}<p><b>Projects</b></p>`;
+    var edStr = `<p><b>${ed.degree}</b>, ${ed.date}<br>${ed.schoolName}, ${ed.location}`;
     // Step 3. Update the DOM with the education string
     $('#education').html(`${edStr}`);
 
