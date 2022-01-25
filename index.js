@@ -59,25 +59,19 @@ function displayObjective(obj){
 function displayEducation(ed){
     // Step 1. Make a string to hold the education information
     var edStr = `<p><b>${ed.degree}</b>, ${ed.date}<br>${ed.schoolName}, ${ed.location}<p><b>Projects</b></p>`;
-    // Step 2. Make a string to hold the course list
-    var projectsList = `<ul>`;
-    // Step 3. Use a for of loop to get the courses
-    for(var project of ed.projects){
-        projectsList += `<li>${project}</li>`;
-    }
-    projectsList += `</ul>`;
-    // Step 4. Updat the DOM with the course list
-    $('#education').html(`${edStr}${projectsList}`);
+    // Step 3. Update the DOM with the education string
+    $('#education').html(`${edStr}`);
 
 }
 
 function displayProjects(projects){
     var projectsList = `<ul>`;
-    // Step 3. Use a for of loop to get the courses
-    for(var project of ed.projects){
+    // Step 1. Use a for of loop to get the courses
+    for(var project of projects){
         projectsList += `<li>${project}</li>`;
     }
     projectsList += `</ul>`;
+    // Step 2. update the DOM with the project list. 
     $('#projects').html(`${projectsList}`);
 }
 
