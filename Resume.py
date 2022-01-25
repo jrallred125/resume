@@ -25,7 +25,7 @@ def convert_letter(cha):
         return cha
     
 def build_string(string):
-    if string.startswith('https') or string.contains():
+    if string.startswith('https'):
         return string
     return_string =''
     for char in string:

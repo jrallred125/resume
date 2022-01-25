@@ -6,6 +6,10 @@ $('#educationHeader').click(function(){
     $('#education').toggle('slow');
 });
 
+$('#projectsHeader').click(function(){
+    $('#projects').toggle('slow');
+});
+
 $('#experienceHeader').click(function(){
     $('#experience').toggle('slow');
 });
@@ -42,7 +46,7 @@ function displayInfo(info){
     var infoStr = `<h1 title="This is who I am">`; 
     var nameStart = info.name.slice(0, info.name.length-1);
     var nameEnd = info.name.slice(info.name.length - 1, info.name.length); 
-    infoStr += `${nameStart}<span id="easterEgg">${nameEnd}</span></h1><p>${info.phone}<br>${info.email}<br><a href="${info.git}">Git</a> </p>`;
+    infoStr += `${nameStart}<span id="easterEgg">${nameEnd}</span></h1>${info.email}<br><a href="${info.git}">Git</a> </p>`;
     // Step 2. Update the DOM 
     $('#information').html(infoStr);
 }
@@ -65,6 +69,16 @@ function displayEducation(ed){
     // Step 4. Updat the DOM with the course list
     $('#education').html(`${edStr}${projectsList}`);
 
+}
+
+function displayProjects(projects){
+    var projectsList = `<ul>`;
+    // Step 3. Use a for of loop to get the courses
+    for(var project of ed.projects){
+        projectsList += `<li>${project}</li>`;
+    }
+    projectsList += `</ul>`;
+    $('#projects').html(`${projectsList}`);
 }
 
 function displayExperience(experience){ 
@@ -100,6 +114,7 @@ function displayFromJson(resume){
     displayInfo(resume.information);
     displayObjective(resume.objective);
     displayEducation(resume.education);
+    displayProjects(resume.projects)
     displayExperience(resume.jobs);
     displaySkills(resume.skills);
 }

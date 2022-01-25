@@ -1,7 +1,6 @@
 {
     "information":{
         "name":"Joseph R Allred",
-        "phone":"801-592-0035",
         "email":"jallred125@gmail.com",
         "git" :"https://github.com/jrallred125"
     },
@@ -11,13 +10,14 @@
         "date":"Jan 2015 - May 2021",
         "gpa": "3.49",
         "schoolName":"Utah Valley Uniersity",
-        "location":"Orem, Utah",
-        "projects":[
-            "Wrote a command line compiler that had objects and arrays. The compiler would compile to an asm file that was able to run on a virtual machine I wrote the semester before. Used C# and Visual Studio.",	
-            "Wrote a freeze tag first person shooter for a group project using Unity, C#, Sourcetree and Bitbucket.",
-            "Wrote a simple Human Resources program to track employees using C# and WinForms."
-        ]
+        "location":"Orem, Utah"
     },
+    "projects":[
+        "Command Line Compiler and a Virtual Machine. The compiler had objects and arrays would compile to an ASM file that was able to run on a virtual machine I wrote the semester before. Used C# and Visual Studio." ,	
+        "Freezing Tag First Person Shooter. Group project using Unity, C#, Sourcetree and Bitbucket. ",
+        "Human Resources program. tracked employees using C# and WinForms.", 
+        "World Builder. A tool for designing a world for writing, or a game or a RPG campaign. Used C#, WPF, Sourcetree and Github."
+       ],
     "jobs":[
         {
             "title":"CS tutor",
@@ -68,6 +68,6 @@
         "C#",
         "Visual Studio and VS Code",
         "Problem Solving",
-        "Familiar: Java, Python, C++, IntelliJ, SourceTree"
+        "Familiar: Java, Python, C++, IntelliJ, SourceTree, WPF, JavaScript, CSS, HTML, Linq"
     ]
 }
